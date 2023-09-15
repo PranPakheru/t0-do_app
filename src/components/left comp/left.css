@@ -1,0 +1,73 @@
+#leftSideMenu{
+    /* min-width:350px; */
+    min-height: 100vh;
+    background: plum;
+    border-radius:20px;
+    /* flex: 0.7; */
+    width: 30vw;
+
+  }
+
+  #leftSideMenu_init{
+    min-height: 100vh;
+    background: plum;
+    border-radius:20px;
+    /* flex: 0.7; */
+    width: 100vw;
+  }
+
+  #input-box-left{
+    /* display: flex; */
+    flex: 1;
+    width: 90%;
+    /* max-width: 100%; */
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 10px 10px 10px 10px;
+    font-size: 13px;
+    /* margin: 2px 10px 2px 10px; */
+    margin-top: 10px;
+    margin-left: 10px;
+    justify-content: space-between;
+    background: coral;
+    border-radius: 10px;
+  }
+
+  button{
+    border: none;
+    outline:none;
+    padding: 10px 30px;
+    background: bisque;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: right;
+  }
+  
+  ul li{
+    margin-top: 10px;
+    margin-left: 30px;
+    padding-top: 5px;
+    cursor: pointer;
+  }
+
+  .leftComp_listDiv{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .leftComp_button{
+    padding: 10px;
+    margin: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+
+  }
+
+  .leftComp_button:hover{
+    background-color: orange;
+    font-weight: bold;
+
+  }
